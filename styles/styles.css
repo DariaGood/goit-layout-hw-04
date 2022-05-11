@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #E5E5E5;
+    
     margin: 0 auto;
     
     
@@ -170,6 +170,12 @@ body {
     margin-left: 0px;
 }
 
+.icon_adress {
+    fill: #757575;
+    
+
+}
+
 
 /* Body */
 
@@ -185,12 +191,25 @@ body {
     flex-direction: column;
     align-items: center;
     
-    background-color: #2F303A;
     padding: 200px 0px;
     margin-left: 0px;
-    margin-right: 0px;
+    margin-right: auto;
+
     
 }
+
+.hero_backgraund {
+    display: flex;
+    margin: 0 auto;
+    background-image: url('https://github.com/DariaGood/goit-markup-hw-04/blob/main/img/IMG_backgraund.jpg?raw=true');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 1600px;
+    background-color: #2F303A;
+    background-size: contain;
+    background-position: center;
+}
+
 
 
 .solutions_text {
@@ -207,7 +226,7 @@ body {
     box-sizing: border-box;
     
     text-align: center; 
-    padding: 30px;
+    padding: 0px;
     margin: 0 auto;
  
 }
@@ -222,6 +241,7 @@ body {
     line-height: 1.87;
     letter-spacing: 0.03em;
     cursor: pointer;
+    border-radius: 4px;
 
     min-width: 200px;
 
@@ -229,8 +249,15 @@ body {
     box-sizing: border-box;
 
     text-align: center;
-    margin: 0 auto;
+    margin: 30px auto 0px auto;
     padding: 10px 32px;
+}
+
+
+
+.button_order:hover,
+.button_order:focus  {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 
@@ -245,6 +272,9 @@ body {
     padding: 94px 0px;
 
 }
+
+
+
 
 .benefits_list {
     display: flex;
@@ -296,6 +326,15 @@ body {
 
 }
 
+
+
+.rect_benefits {
+    display: block;
+    margin: 0;
+    padding: 0;
+    fill:#F5F4FA;
+
+}
 
 
 
