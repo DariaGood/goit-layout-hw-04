@@ -166,18 +166,20 @@ body {
 
 .li_adress_header {
     display: flex;
-    margin-left: 50px;
+    margin-right: 50px;
     padding: 32px 0;
 }
 
 .li_adress_header:first-child {
-    margin-left: 0px;
+    margin-right: 0px;
 }
 
 
 .icon_adress {
+    display: block;
+    text-align: center;
     fill: #757575;
-    margin-right: 50px;
+    margin-right: 10px;
 }
 
 
@@ -337,7 +339,9 @@ body {
 }
 
 
+.svg_benefits {
 
+}
 
 
 /* Чем мы занимаемся */
