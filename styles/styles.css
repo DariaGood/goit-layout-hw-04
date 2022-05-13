@@ -182,6 +182,11 @@ body {
     margin-right: 10px;
 }
 
+..icon_adress:hover {
+    color: var(--blue);
+}
+
+
 
 /* Body */
 
