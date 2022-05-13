@@ -37,6 +37,13 @@ body {
     box-sizing: border-box;
 }
 
+.header_nav {
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
 
 
 /* Лого */
@@ -137,12 +144,16 @@ body {
 
 
 .adress {
+    display: flex;
+    margin: 0;
+    padding: 0;
     color: #757575;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+
 }
 
 .adress:hover {
@@ -161,7 +172,7 @@ body {
 }
 
 .li_adress_header {
-    display: block;
+    display: flex;
     margin-left: 50px;
     padding: 32px 0;
 }
@@ -171,9 +182,10 @@ body {
 }
 
 .icon_adress {
+    display: flex;
     fill: #757575;
-    
-
+    margin-left: 0px;
+    margin-right: 10px;
 }
 
 
@@ -184,33 +196,32 @@ body {
 
 
 .solution {
-    display: block;
-    box-sizing: border-box;
-
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     
     padding: 200px 0px;
-    margin-left: 0px;
-    margin-right: auto;
-
+    margin: 0px auto;
     
 }
+
+
 
 .hero_backgraund {
     display: flex;
     margin: 0 auto;
-    background-image: url('https://github.com/DariaGood/goit-markup-hw-04/blob/main/img/IMG_backgraund.jpg?raw=true');
+    max-width: 1600px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('https://github.com/DariaGood/goit-markup-hw-04/blob/main/img/backgraund.jpg?raw=true');
     background-repeat: no-repeat;
-    background-position: 50% 50%;
-    width: 1600px;
     background-color: #2F303A;
     background-size: contain;
     background-position: center;
+    
 }
 
-
+/*linear-gradient(rgba(47, 48, 58, 0.4)), url('https://github.com/DariaGood/goit-markup-hw-04/blob/main/img/gradient.jpg?raw=true'),*/
 
 .solutions_text {
     color: var(--white);
@@ -225,8 +236,9 @@ body {
     display: block;
     box-sizing: border-box;
     
+    
     text-align: center; 
-    padding: 0px;
+    padding: 0px 45px;
     margin: 0 auto;
  
 }
@@ -270,11 +282,7 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 94px 0px;
-
 }
-
-
-
 
 .benefits_list {
     display: flex;
@@ -282,8 +290,7 @@ body {
     align-items: center;
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
-    
+    padding: 0;   
 }
 
 .li_benefits {
@@ -308,7 +315,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     box-sizing: border-box;
-    margin-top: 0;
+    margin-top: 30px;
     margin-bottom: 10px;
     padding: 0;
 }
@@ -326,14 +333,17 @@ body {
 
 }
 
-
-
 .rect_benefits {
     display: block;
     margin: 0;
     padding: 0;
     fill:#F5F4FA;
 
+}
+
+.li_ben_img {
+    padding: 0;
+    margin: 0;
 }
 
 
@@ -358,7 +368,6 @@ body {
 
 .li_we_do {
     list-style-type:none;
-
     display: block;
     flex-basis: calc((100% - 90px) / 3);
     flex-wrap: nowrap;
@@ -380,6 +389,7 @@ body {
 
 .team_section {
     padding: 94px 0px;
+    background-color: #F5F4FA;
 }
 
 .name_h2 {
@@ -423,7 +433,8 @@ body {
 }
 
 .p_li_our_team {
-    padding: 30px 0px;
+    padding: 30px 0px 0px 0px;
+    margin: 0px;
 }
 
 .team_name {
@@ -456,6 +467,74 @@ body {
     margin-bottom: 0;
 }
 
+.icon_media {
+    display: flex;
+    padding: 16px 32px 30px 32px;
+}
+
+/* Клиенты */
+
+.clients_section {
+    display: block;
+    box-sizing: border-box;
+    padding: 94px 0px ;
+}
+
+
+.list_clients {
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 0px;
+    margin: 0px 50px 0px 0px;
+    list-style-type: none;
+}
+
+
+.li_clients {
+    display: block;
+    box-sizing: border-box;
+    width: 170px;
+    
+    border-radius: 4px;
+    border-color: #AFB1B8;
+    border-width: 1px;  
+   
+    padding: 0px;
+    margin: 0px 30px 0px 0px;
+
+}
+
+
+.li_clients:last-child {
+    margin-right: 0px;
+}
+
+
+.a_clients {
+    display: inline-block;
+    padding: 64px 0px;
+    border-style:solid;
+    border: #757575;
+    border-width: 1px;
+
+}
+
+.a_clients:hover {
+    border: #757575;
+    border-width: 1px;
+}
+
+.svg_clients {
+    fill: none;
+    stroke: none
+}
+
+
+
+
+
+
 
 
 
@@ -466,7 +545,7 @@ body {
     background-color: #2F303A;
     display: block;
     box-sizing: border-box;
-    padding: 60px 0px;
+    padding: 0px 0px 60px 0px;
     margin-left: 0px;
     margin-right: auto;
     
