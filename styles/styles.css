@@ -183,7 +183,7 @@ body {
 }
 
 ..icon_adress:hover {
-    color: var(--blue);
+    fill: var(--blue);
 }
 
 
@@ -325,27 +325,43 @@ body {
     width: 270px;
     margin: 10px 0px 0px 0px;
 
-    padding: 0;
+    padding: 0px;
 
 }
 
 .rect_benefits {
     display: block;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     fill:#F5F4FA;
 
 }
 
 .li_ben_img {
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
 }
 
+.rect_benefits {
+    display: block;
+    box-sizing: border-box;
+    background-color: #F5F4FA;
+    border: none;
+    padding: 0px;
+    margin: 0px; 
+}
 
 .svg_benefits {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
+
+
+
+
+
 
 
 /* Чем мы занимаемся */
