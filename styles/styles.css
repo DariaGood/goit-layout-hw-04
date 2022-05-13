@@ -1,59 +1,56 @@
 body {
     font-family: 'Roboto', sans-serif;
-    
     margin: 0 auto;
-    
-    
-
 }
-
 
 
 :root {
     --blue: #2196F3;
     --c212121: #212121;
-    --white: #FFFFFF;
-   
+    --white: #FFFFFF; 
 }
 
 .container {
     width: 1200px;
     margin: 0 auto;
-    padding: 0 15px;
-    
-    
+    padding: 0 15px;  
 }
+
+
+
 
 
          /* Страница студия */
 
+
+
+
 /*  Шапка */
 
 .header {
-    border: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
     box-sizing: border-box;
+    border: 0;
 }
 
-.header_nav {
-    border: 0;
+.header_navigation {
     display: flex;
     align-items: center;
     justify-content: space-between;
     box-sizing: border-box;
+    border: 0;
 }
+
 
 
 /* Лого */
 
 .logo {
-    text-decoration: none;
     display: block;
     box-sizing: border-box;
-    
-
+    text-decoration: none;
 }
 
 .logo_main {
@@ -83,7 +80,6 @@ body {
     color: var(--white);
 }
 
-
 .logo:visited {
     color: var(--blue);
     text-decoration: none;
@@ -94,7 +90,7 @@ body {
 
      /*  Навигация  в шапке */
 
-/* Цвет кнопки в шапке*/
+/* Цвет кнопки в шапке */
 
 .list_navigation {
     display: flex;
@@ -103,8 +99,7 @@ body {
     padding: 0;
     margin-left: 93px;
     margin-top: 0;
-    margin-bottom: 0;
-    
+    margin-bottom: 0;  
 }
 
 
@@ -119,19 +114,17 @@ body {
 }
 
 
-
-
-.li_navigation {
+.a_navigation {
     color: var(--c212121);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    text-decoration: none;
     letter-spacing: 0.02em;
-    
+    text-decoration: none;  
 }
 
-.li_navigation:hover {
+
+.a_navigation:hover {
     color: var(--blue);
     text-decoration: none;
 }
@@ -143,7 +136,7 @@ body {
     /* Адрес в шапке */
 
 
-.adress {
+.a_adress {
     display: flex;
     margin: 0;
     padding: 0;
@@ -156,19 +149,19 @@ body {
 
 }
 
-.adress:hover {
+.a_adress:hover {
     color: var(--blue);
     text-decoration: none;
 }
 
-.adress_list {
+.list_adress {
+    display: flex;
+    align-items:center;
+    justify-content: flex-end;
     margin-left: auto;
     margin-top: 0;
     margin-bottom: 0;
     padding: 0;
-    display: flex;
-    align-items:center;
-    justify-content: flex-end;
 }
 
 .li_adress_header {
@@ -197,7 +190,6 @@ body {
     
     padding: 200px 0px;
     margin: 0px auto;
-    
 }
 
 
@@ -211,8 +203,7 @@ body {
     background-repeat: no-repeat;
     background-color: #2F303A;
     background-size: contain;
-    background-position: center;
-    
+    background-position: center;   
 }
 
 /*linear-gradient(rgba(47, 48, 58, 0.4)), url('https://github.com/DariaGood/goit-markup-hw-04/blob/main/img/gradient.jpg?raw=true'),*/
