@@ -106,8 +106,10 @@ body {
 .li_gen_nav {
     list-style-type: none;   
     margin-right: 50px; 
-    padding: 32px 0;  
+    padding: 32px 0; 
+
 }
+
 
 .li_gen_nav:last-child {
     margin-right: 0px;
@@ -149,10 +151,11 @@ body {
 
 }
 
-.a_adress:hover {
+.a_adress:hover  {
     color: var(--blue);
     text-decoration: none;
 }
+
 
 .list_adress {
     display: flex;
@@ -166,6 +169,7 @@ body {
 
 .li_adress_header {
     display: flex;
+    justify-content: center;
     align-items: center;
     margin-right: 50px;
     padding: 32px 0;
@@ -183,9 +187,13 @@ body {
     margin-right: 10px;
 }
 
-.icon_adress:hover {
-    fill: var(--blue);
+.a_adress:hover .icon_adress {
+    fill: currentColor;
 }
+
+
+
+
 
 
 
@@ -219,7 +227,7 @@ body {
     background-position: center;   
 }
 
-/*linear-gradient(rgba(47, 48, 58, 0.4)), url('https://github.com/DariaGood/goit-markup-hw-04/blob/main/img/gradient.jpg?raw=true'),*/
+
 
 .solutions_text {
     color: var(--white);
@@ -561,11 +569,9 @@ body {
 
 .svg_clients {
     fill: #AFB1B8;
+  
 }
 
-.svg_clients:hover {
-    fill: #2196F3;
-}
 
 
 .a_icon_clients {
@@ -579,11 +585,15 @@ body {
     border-color: #AFB1B8;
     border-radius: 4px;
     padding: 16px 32px;
-
 }
 
 .a_icon_clients:hover {
     border-color: #2196F3;
+}
+
+.a_icon_clients:hover .svg_clients,
+.a_icon_clients:focus .svg_clients {
+    fill: #2196F3; 
 }
 
 
@@ -777,6 +787,7 @@ body {
     align-items: center;
     flex-basis: 611px;
     list-style-type: none;
+    margin-top: 0px;
     margin-bottom: 50px;
     padding: 0px;
     
